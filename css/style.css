@@ -176,7 +176,7 @@
 /*About Me*/
 
 .ammain {
-    background: url(../Assets/Img/principal6.jpeg);
+    background-image: url(../Assets/Img/principal6.jpeg);
     width: 119rem;
     height: 118rem;
     background-size: cover

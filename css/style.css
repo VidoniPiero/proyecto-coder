@@ -10,21 +10,23 @@
 .nav {
     display: flex;
     justify-content: space-around;
-    background: white ;
+    background: white;
     height: 100%;
     width: 100%;
 }
-.ul1 { 
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        align-content: center;
-        height: 11.5vw;
-        width: 100%;
-        list-style-type: none;
+
+.ul1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    height: 11.5vw;
+    width: 100%;
+    list-style-type: none;
 }
+
 .ul1 li a {
-    text-decoration:none;
+    text-decoration: none;
     padding: 2vw;
     font-size: 2.5rem;
 }
@@ -38,18 +40,19 @@
 .portada {
     display: flex;
     flex-wrap: nowrap;
-    
+
 }
+
 .principal1 {
-    height: 50vw ;
-    width:  60vw ;
+    height: 50vw;
+    width: 60vw;
 }
 
 /*Contacto*/
 
 .mainc {
     background: url(../assets/img/FONDO\ CONTACTO.jpg);
-    background-size:cover;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -60,7 +63,7 @@
     align-items: center;
     margin-left: 80vw;
     background-color: rgba(128, 128, 128, 0.555);
-    border-style:none; 
+    border-style: none;
     padding-bottom: 10%;
 }
 
@@ -72,48 +75,56 @@
 }
 
 .grid {
-    display:grid;
-    grid-template-columns: repeat (4 ,1fr);
+    display: grid;
+    grid-template-columns: repeat (4, 1fr);
     grid-template-rows: repeat (2, 2fr);
     grid-template-areas:
-    " foto1 foto2 foto3 foto4"
-    " foto5 foto6 foto7 foto8";
+        " foto1 foto2 foto3 foto4"
+        " foto5 foto6 foto7 foto8";
     width: 100%;
-    max-width: 1700px;
-    
+
 }
+
 .foto1 {
-    width: 47.6vw;
-    height: 65vw;
+    width: 24.7vw;
+    height: 37vw;
 }
+
 .foto2 {
-    width: 476px;
-    height: 650px;
+    width: 24.7vw;
+    height: 37vw;
 }
+
 .foto3 {
-    width: 476px;
-    height: 650px;
+    width: 24.7vw;
+    height: 37vw;
 }
+
 .foto4 {
-    width: 476px;
-    height: 650px;
+    width: 24.7vw;
+    height: 37vw;
 }
+
 .foto5 {
-    width: 476px;
-    height: 650px;
+    width: 24.7vw;
+    height: 37vw;
 }
+
 .foto6 {
-    width: 476px;
-    height: 650px;
+    width: 24.7vw;
+    height: 37vw;
 }
+
 .foto7 {
-    width: 476px;
-    height: 650px;
+    width: 24.7vw;
+    height: 37vw;
 }
+
 .foto8 {
-    width: 476px;
-    height: 650px;
+    width: 24.7vw;
+    height: 37vw;
 }
+
 .pp {
     text-align: center;
     word-spacing: 1;
@@ -134,18 +145,20 @@
     height: 100%;
     padding: 50px;
 }
+
 .pdiv {
-        background-color:white;
-        width: 600px;
-        height: 650px;
-        display: inline-block;
-        justify-content: space-between;
-        text-align: center;
-        padding: 10px;
-        border-radius: 2%;
+    background-color: white;
+    width: 600px;
+    height: 650px;
+    display: inline-block;
+    justify-content: space-between;
+    text-align: center;
+    padding: 10px;
+    border-radius: 2%;
 }
-.sp{
-    color: black ;
+
+.sp {
+    color: black;
 }
 
 .fotosshop {
@@ -153,9 +166,10 @@
     height: 425px;
 
 }
+
 .fotosshop:hover {
-        scale: 1.5;
-        opacity: 100%;
+    scale: 1.5;
+    opacity: 100%;
 }
 
 
@@ -167,7 +181,7 @@
     height: 118rem;
     background-size: cover
 }
-        
+
 .amdiv {
     text-align: center;
     word-spacing: 1.5;
@@ -178,11 +192,11 @@
 #contenedorcarousel {
     margin-top: 0%;
     margin-right: 35%;
-    margin-left: 35%; 
+    margin-left: 35%;
     margin-bottom: 0%;
 }
 
-.imgaboutme{
+.imgaboutme {
     width: 476px;
     height: 650px;
 }
@@ -190,13 +204,13 @@
 
 /*Footer */
 
-.pie-pagina{
+.pie-pagina {
     display: flex;
     flex-direction: column;
-    justify-content:center;
+    justify-content: center;
     height: 5rem;
     width: 100%;
-    background-color:  white;
+    background-color: white;
     font-size: 2rem;
     margin-top: 1.5vw;
 
@@ -206,7 +220,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    align-items:flex-start;
+    align-items: flex-start;
     align-content: space-around;
 }
 
@@ -226,9 +240,17 @@
 /*Responsive*/
 
 @media screen and (max-width:576px) {
-    .pie-pagina{ margin-top: 3vw;}
-    .nav{ width: 100%; 
-        font-size: 15px;
-        background-color: black;}
-}
+    .pie-pagina {
+        margin-top: 3vw;
+    }
 
+    .nav {
+        width: 100%;
+
+        background-color: black;
+    }
+
+    .nav li a{
+        font-size: 5vw;
+    }
+}

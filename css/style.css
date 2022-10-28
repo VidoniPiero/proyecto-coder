@@ -176,10 +176,11 @@
 /*About Me*/
 
 .ammain {
-    background-image: url(../Assets/Img/principal6.jpeg);
-    width: 119rem;
-    height: 118rem;
-    background-size: cover
+    display: flex;
+    background-image: url(../assets/img/fondoaboutme.jpeg);
+    background-size: cover;
+    flex-direction: column;
+    padding: 5vw;
 }
 
 .amdiv {
@@ -253,4 +254,9 @@
     .nav li a{
         font-size: 5vw;
     }
+
+    .ammain {
+        padding: 0vw;
+    }
 }
+

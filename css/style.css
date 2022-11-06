@@ -303,11 +303,11 @@
         flex-wrap: nowrap;
         justify-content: space-evenly;
         background: black;
-        padding: 35px,35px,35px,10px;
+        padding: 35px, 35px, 35px, 10px;
         width: 100%;
         gap: 2px;
     }
-    
+
     .pdiv {
         background-color: white;
         text-align: center;
@@ -316,7 +316,7 @@
         border-radius: 2%;
         border: solid white;
     }
-    
+
     .sp {
         color: black;
         padding-top: 0%;
@@ -327,7 +327,7 @@
         flex-wrap: wrap;
         text-align: center;
     }
-    
+
     .sp p {
         width: 100%;
         font-size: 0.5rem;
@@ -344,5 +344,18 @@
         padding-bottom: 10%;
     }
 
+    .grid {
+        display: grid;
+        grid-template-columns: repeat (2, 1fr);
+        grid-template-rows: repeat (4, 2fr);
+        grid-template-areas:
+            " foto1 foto2" 
+            " foto3 foto4"
+            " foto5 foto6"
+            " foto7 foto8";
+        width: 100%;
+        justify-items: center;
+    
+    }
 
 }

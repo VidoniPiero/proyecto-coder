@@ -1,0 +1,72 @@
+
+/* Index */
+.principal1 {
+	height: 800px;
+	width: 506px;
+}	
+
+/*About Me*/
+.imgaboutme {
+	width: 476px;
+	height: 650px;
+}
+
+/*Contacto*/
+.mainc {
+	background: url(../assets/img/FONDO\ CONTACTO.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+
+/* PORTFOLIO */
+.foto1 {
+	width: 370px;
+	height: 500px;
+	padding: 1%;
+}
+.foto2 {
+	width: 370px;
+	height: 500px;
+	padding: 1%;
+}
+.foto3 {
+	width: 370px;
+	height: 500px;
+	padding: 1%;
+}
+.foto4 {
+	width: 370px;
+	height: 500px;
+	padding: 1%;
+}
+.foto5 {
+	width: 370px;
+	height: 500px;
+	padding: 1%;
+}
+.foto6 {
+	width: 370px;
+	height: 500px;
+	padding: 1%;
+}
+.foto7 {
+	width: 370px;
+	height: 500px;
+	padding: 1%;
+}
+.foto8 {
+	width: 370px;
+	height: 500px;
+	padding: 1%;
+}
+
+/*Shop*/
+.fotosshop {
+	width: 100%;
+	&:hover {
+		scale: 1.2;
+		opacity: 100%;
+	}
+}

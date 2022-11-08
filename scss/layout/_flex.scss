@@ -1,0 +1,26 @@
+/*INDEX*/
+.portada {
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+/*About Me*/
+.ammain {
+	display: flex;
+	background-image: url(../assets/img/fondoaboutme.jpeg);
+	background-size: cover;
+	flex-direction: column;
+	padding: 96px;
+	font-family: $font-family_1;
+	font-size: 1.5rem;
+}
+
+/*Shop*/
+.shops {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	background: black;
+	padding: 50px;
+	width: 100%;
+}

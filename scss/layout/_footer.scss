@@ -1,0 +1,29 @@
+/*Footer */
+
+.pie-pagina {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 5rem;
+	width: 100%;
+	background-color: $background-color_1;
+	font-size: 2rem;
+	margin-top: 28.8px;
+}
+.fdiv {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: flex-start;
+	align-content: space-around;
+	img {
+		width: 76.8px;
+		margin-top: 19.2px;
+	}
+}
+.grupo2 {
+	display: flex;
+	justify-content: center;
+	margin-top: 9.6px;
+	font-size: 1rem;
+}

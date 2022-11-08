@@ -1,0 +1,9 @@
+/* PORTFOLIO */
+.grid {
+	display: grid;
+	grid-template-areas: "foto1 foto2 foto3 foto4" "foto5 foto6 foto7 foto8";
+	grid-template-columns: repeat (4, 1fr);
+	grid-template-rows: repeat (2, 2fr);
+	width: 100%;
+	padding-top: 1%;
+}

@@ -1,0 +1,169 @@
+@media screen and (max-width:576px) {
+/* NAVEGADOR */
+	.nav {
+		width: 100%;
+		background-color: $background-color_5;
+		li {
+			a {
+				font-size: 1rem;
+			}
+		}
+	}
+
+	.logo {
+		width: 15px;
+	}
+
+	/*FOOTER*/
+	.pie-pagina {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		height: 5rem;
+		width: 100%;
+		background-color: $background-color_1;
+		font-size: 2rem;
+		margin-top: 28.8px;
+	}
+	.fdiv {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		align-items: flex-start;
+		align-content: space-around;
+		img {
+			width: 76.8px;
+			margin-top: 19.2px;
+		}
+	}
+	.grupo2 {
+		display: flex;
+		justify-content: center;
+		margin-top: 9.6px;
+		font-size: 1rem;
+	}
+
+	/*Index*/
+
+	.portada {
+		display: flex;
+		flex-direction: column;
+		height: 100%;
+	}
+
+	/* About Me*/
+	.ammain {
+		padding: 0vw;
+	}
+	p {
+		font-size: 1rem;
+	}
+	.pdiv {
+		background-color: $background-color_1;
+		text-align: center;
+		width: 18vw;
+		height: 40vh;
+		border-radius: 2%;
+		border: solid white;
+		background-color: $background-color_1;
+		text-align: center;
+		width: 18vw;
+		height: 60vh;
+		border-radius: 2%;
+		border: solid white;
+	}
+	.imgaboutme {
+		width: 238px;
+		height: 325px;
+	}
+	#contenedorcarousel {
+		margin-top: 15%;
+		margin-bottom: 30%;
+		width: 100%;
+		height: 100%;
+		
+		
+	}
+	.shops {
+		display: flex;
+		flex-wrap: nowrap;
+		justify-content: space-evenly;
+		background: black;
+		padding: 35px, 35px, 35px, 10px;
+		width: 100%;
+		gap: 2px;
+	}
+	
+	.sp {
+		color: $color_2;
+		padding-top: 0%;
+		font-family: $font-family_1;
+		height: 20vh;
+		width: 100%;
+		display: flex;
+		flex-wrap: wrap;
+		text-align: center;
+		p {
+			width: 100%;
+			font-size: 0.5rem;
+		}
+	}
+	.form {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin-left: 1vw;
+		margin-right: 1vw;
+		background-color: $background-color_2;
+		border-style: none;
+		padding-bottom: 10%;
+	}
+    .grid {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 100%;
+	}
+
+	.foto1 {
+		width: 300px;
+		height: 400px;
+		padding: 1%;
+	}
+	.foto2 {
+		width: 300px;
+		height: 400px;
+		padding: 1%;
+	}
+	.foto3 {
+		width: 300px;
+		height: 400px;
+		padding: 1%;
+	}
+	.foto4 {
+		width: 300px;
+		height: 400px;
+		padding: 1%;
+	}
+	.foto5 {
+		width: 300px;
+		height: 400px;
+		padding: 1%;
+	}
+	.foto6 {
+		width: 300px;
+		height: 400px;
+		padding: 1%;
+	}
+	.foto7 {
+		width: 300px;
+		height: 400px;
+		padding: 1%;
+	}
+	.foto8 {
+		width: 300px;
+		height: 400px;
+		padding: 1%;
+	}
+
+}

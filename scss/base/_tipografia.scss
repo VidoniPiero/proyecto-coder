@@ -1,1 +1,45 @@
 $font-family_1: "Alkalami";
+
+.amdiv {
+	text-align: center;
+	word-spacing: 1.5;
+	letter-spacing: 0.2rem;
+	line-height: 2rem;
+	margin-top: 1rem;
+	padding-top: 0.5rem;
+	background-color: rgba(255, 255, 255, 0.255)
+}
+
+.pp {
+	text-align: center;
+	word-spacing: 1;
+	letter-spacing: 0.1rem;
+	background-color: $background-color_4;
+	color: $color_2;
+	background-image: url(../assets/img/FONDO\ CONTACTO.jpg);
+	padding: 5%;
+}
+
+.pdiv {
+	background-color: $background-color_1;
+	text-align: center;
+	width: 250px;
+	height: 750px;
+	border-radius: 2%;
+	border: solid white;
+}
+
+.sp {
+	color: $color_2;
+	padding-top: 5%;
+	font-family: $font-family_1;
+	height: 50px;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	text-align: center;
+	p {
+		width: 100%;
+		font-size: 1rem;
+	}
+}

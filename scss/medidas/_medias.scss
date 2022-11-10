@@ -1,36 +1,79 @@
-@media screen and (max-width:480px) {
+@media screen and (max-width:756px) {
+    .nav {
+        background-color: $background-color_5;
+        align-items: center;
+        ul {
+            margin-bottom: 0;
+            padding-left: 0;
+            li{
+                a{
+                    font-size: 1.5rem;
+                    text-align: center;
+                    align-items: center;
+                }
+            }
+        }
+        div {
+            a {
+                img {
+                    vertical-align: middle;
+                }
+            }
+        }
+    }
+
+	/* Index */
+.principal1 {
+	height: 60vw;
+	width: 33.3vw;
+}
+
+/* About Me */ 
+#contenedorcarousel {
+	margin-top: 5%;
+	margin-right: 0%;
+	margin-left: 7%;
+	margin-bottom: 0%;
+}
+
+.shops {
+	display: flex;
+	flex-direction: column;
+}
+.pdiv {
+	width: 90%;
+	margin: 5%;
+}
+}
+
+
+
+@media screen and (max-width:576px) {
 /* NAVEGADOR */
 .nav {
-	display: flex;
-	background: $background-color_1;
-	height: 30%;
-	width: 100%;
-	font-family: $font-family_1;
+    width: 100%;
+    height: 55.18px;
+    background-color: $background-color_5;
+    align-items: center;
+    ul {
+        margin-bottom: 0;
+        padding-left: 0;
+        li {
+            a {
+                font-size: 20px;
+                text-align: center;
+                align-items: center;
+            }
+        }
+    }
+    div {
+        a {
+            img {
+                vertical-align: middle;
+            }
+        }
+    }
 }
-.ul1 {
-	display: flex;
-	justify-content: space-evenly;
-	align-items: center;
-	align-content: center;
-	height: 100px;
-	width: 100%;
-	list-style-type: none;
-	li {
-		a {
-			text-decoration: none;
-			padding: 1rem;
-			font-size: 1.5rem;
-			color: $color_1;
-		}
-	}
-}
-.logo {
-	width: 15px;
-	height: 15px;
-	align-content: center;
-}
-
-
 	/*FOOTER*/
 	.pie-pagina {
 		display: flex;
@@ -48,6 +91,7 @@
 		justify-content: space-around;
 		align-items: flex-start;
 		align-content: space-around;
+		margin-top: 20px;
 		img {
 			width: 76.8px;
 			margin-top: 19.2px;
@@ -68,6 +112,11 @@
 		height: 100%;
 	}
 
+	.principal1 {
+		height: 110vw;
+		width: 100vw;
+	}
+
 	/* About Me*/
 	.ammain {
 		padding: 0vw;
@@ -75,56 +124,17 @@
 	p {
 		font-size: 1rem;
 	}
-	.pdiv {
-		background-color: $background-color_1;
-		text-align: center;
-		width: 18vw;
-		height: 40vh;
-		border-radius: 2%;
-		border: solid white;
-		background-color: $background-color_1;
-		text-align: center;
-		width: 18vw;
-		height: 60vh;
-		border-radius: 2%;
-		border: solid white;
-	}
 	.imgaboutme {
 		width: 238px;
 		height: 325px;
 	}
 	#contenedorcarousel {
-		margin-top: 15%;
-		margin-bottom: 30%;
-		width: 100%;
-		height: 100%;
-		
-		
+		margin-top: 5%;
+		margin-right: 0%;
+		margin-left: 25%;
+		margin-bottom: 4%;
 	}
-	.shops {
-		display: flex;
-		flex-wrap: nowrap;
-		justify-content: space-evenly;
-		background: black;
-		padding: 35px, 35px, 35px, 10px;
-		width: 100%;
-		gap: 2px;
-	}
-	
-	.sp {
-		color: $color_2;
-		padding-top: 0%;
-		font-family: $font-family_1;
-		height: 20vh;
-		width: 100%;
-		display: flex;
-		flex-wrap: wrap;
-		text-align: center;
-		p {
-			width: 100%;
-			font-size: 0.5rem;
-		}
-	}
+
 	.form {
 		display: flex;
 		flex-direction: column;

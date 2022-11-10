@@ -23,9 +23,8 @@ $font-family_1: "Alkalami";
 .pdiv {
 	background-color: $background-color_1;
 	text-align: center;
-	width: 250px;
-	height: 750px;
-	border-radius: 2%;
+	width: 18%;
+	border-radius: 5px;
 	border: solid $background-color_1;
 }
 
@@ -33,13 +32,10 @@ $font-family_1: "Alkalami";
 	color: $color_2;
 	padding-top: 5%;
 	font-family: $font-family_1;
-	height: 50px;
-	width: 100%;
 	display: flex;
 	flex-wrap: wrap;
 	text-align: center;
 	p {
-		width: 100%;
 		font-size: 1rem;
 	}
 }

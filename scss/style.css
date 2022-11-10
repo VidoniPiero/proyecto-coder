@@ -27,9 +27,8 @@
 .pdiv {
   background-color: white;
   text-align: center;
-  width: 250px;
-  height: 750px;
-  border-radius: 2%;
+  width: 18%;
+  border-radius: 5px;
   border: solid white;
 }
 
@@ -37,15 +36,95 @@
   color: black;
   padding-top: 5%;
   font-family: "Alkalami";
-  height: 50px;
-  width: 100%;
   display: flex;
   flex-wrap: wrap;
   text-align: center;
 }
 .sp p {
-  width: 100%;
   font-size: 1rem;
+}
+
+/* Index */
+.principal1 {
+  height: 50vw;
+  width: 60vw;
+}
+
+/*About Me*/
+.imgaboutme {
+  width: 476px;
+  height: 650px;
+}
+
+/*Contacto*/
+.mainc {
+  background: url(../assets/img/FONDO\ CONTACTO.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* PORTFOLIO */
+.mainp {
+  background-color: black;
+  width: 100%;
+}
+
+.foto1 {
+  width: 24.5vw;
+  height: 38vw;
+  padding: 0.5%;
+}
+
+.foto2 {
+  width: 24.5vw;
+  height: 38vw;
+  padding: 0.5%;
+}
+
+.foto3 {
+  width: 24.5vw;
+  height: 38vw;
+  padding: 0.5%;
+}
+
+.foto4 {
+  width: 24.5vw;
+  height: 38vw;
+  padding: 0.5%;
+}
+
+.foto5 {
+  width: 24.5vw;
+  height: 38vw;
+  padding: 0.5%;
+}
+
+.foto6 {
+  width: 24.5vw;
+  height: 38vw;
+  padding: 0.5%;
+}
+
+.foto7 {
+  width: 24.5vw;
+  height: 38vw;
+  padding: 0.5%;
+}
+
+.foto8 {
+  width: 24.5vw;
+  height: 38vw;
+  padding: 0.5%;
+}
+
+/*Shop*/
+.fotosshop {
+  width: 100%;
+}
+.fotosshop:hover {
+  scale: 1.2;
+  opacity: 100%;
 }
 
 /*INDEX*/
@@ -71,8 +150,18 @@
   flex-wrap: wrap;
   justify-content: space-evenly;
   background: black;
-  padding: 50px;
+  padding: 2.6vw;
   width: 100%;
+}
+
+/* PORTFOLIO */
+.grid {
+  display: grid;
+  grid-template-areas: "foto1 foto2 foto3 foto4" "foto5 foto6 foto7 foto8";
+  grid-template-columns: repeat 4, 1fr;
+  grid-template-rows: repeat 2, 2fr;
+  width: 100%;
+  padding-top: 1%;
 }
 
 /*Footer */
@@ -123,132 +212,38 @@ fieldset {
   margin-top: 1%;
 }
 
-/* PORTFOLIO */
-.grid {
-  display: grid;
-  grid-template-areas: "foto1 foto2 foto3 foto4" "foto5 foto6 foto7 foto8";
-  grid-template-columns: repeat 4, 1fr;
-  grid-template-rows: repeat 2, 2fr;
-  width: 100%;
-  padding-top: 1%;
-}
-
 /*NAVEGADOR PRINCIPAL*/
 .nav {
   display: flex;
+  justify-content: space-around;
   background: white;
-  height: 30%;
+  height: 100%;
   width: 100%;
   font-family: "Alkalami";
 }
 
 .ul1 {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
   align-content: center;
-  height: 100px;
+  height: 11.5vw;
   width: 100%;
   list-style-type: none;
 }
 .ul1 li a {
   text-decoration: none;
-  padding: 120px;
-  font-size: 1.5rem;
+  padding: 2vw;
+  font-size: 2.5rem;
   color: #2852A8;
 }
 
 .logo {
-  width: 100px;
-  height: 100px;
-  align-content: center;
+  width: 10vw;
 }
 
 #aboutme {
-  height: 210.8px;
-}
-
-/* Index */
-.principal1 {
-  height: 800px;
-  width: 506px;
-}
-
-/*About Me*/
-.imgaboutme {
-  width: 476px;
-  height: 650px;
-}
-
-/*Contacto*/
-.mainc {
-  background: url(../assets/img/FONDO\ CONTACTO.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-/* PORTFOLIO */
-.mainp {
-  background-color: black;
-  width: 100%;
-}
-
-.foto1 {
-  width: 370px;
-  height: 500px;
-  padding: 1%;
-}
-
-.foto2 {
-  width: 370px;
-  height: 500px;
-  padding: 1%;
-}
-
-.foto3 {
-  width: 370px;
-  height: 500px;
-  padding: 1%;
-}
-
-.foto4 {
-  width: 370px;
-  height: 500px;
-  padding: 1%;
-}
-
-.foto5 {
-  width: 370px;
-  height: 500px;
-  padding: 1%;
-}
-
-.foto6 {
-  width: 370px;
-  height: 500px;
-  padding: 1%;
-}
-
-.foto7 {
-  width: 370px;
-  height: 500px;
-  padding: 1%;
-}
-
-.foto8 {
-  width: 370px;
-  height: 500px;
-  padding: 1%;
-}
-
-/*Shop*/
-.fotosshop {
-  width: 100%;
-}
-.fotosshop:hover {
-  scale: 1.2;
-  opacity: 100%;
+  height: 11.5vw;
 }
 
 #contenedorcarousel {
@@ -256,4 +251,176 @@ fieldset {
   margin-right: 35%;
   margin-left: 35%;
   margin-bottom: 0%;
+}
+
+@media screen and (max-width: 756px) {
+  .nav {
+    background-color: rgba(54, 63, 131, 0.329);
+    align-items: center;
+  }
+  .nav ul {
+    margin-bottom: 0;
+    padding-left: 0;
+  }
+  .nav ul li a {
+    font-size: 1.5rem;
+    text-align: center;
+    align-items: center;
+  }
+  .nav div a img {
+    vertical-align: middle;
+  }
+  /* Index */
+  .principal1 {
+    height: 60vw;
+    width: 33.3vw;
+  }
+  /* About Me */
+  #contenedorcarousel {
+    margin-top: 5%;
+    margin-right: 0%;
+    margin-left: 7%;
+    margin-bottom: 0%;
+  }
+  .shops {
+    display: flex;
+    flex-direction: column;
+  }
+  .pdiv {
+    width: 90%;
+    margin: 5%;
+  }
+}
+@media screen and (max-width: 576px) {
+  /* NAVEGADOR */
+  .nav {
+    width: 100%;
+    height: 55.18px;
+    background-color: rgba(54, 63, 131, 0.329);
+    align-items: center;
+  }
+  .nav ul {
+    margin-bottom: 0;
+    padding-left: 0;
+  }
+  .nav ul li a {
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+  }
+  .nav div a img {
+    vertical-align: middle;
+  }
+  /*FOOTER*/
+  .pie-pagina {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 2rem;
+    width: 100%;
+    background-color: white;
+    font-size: 2rem;
+    margin-top: 28.8px;
+  }
+  .fdiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    align-content: space-around;
+    margin-top: 20px;
+  }
+  .fdiv img {
+    width: 76.8px;
+    margin-top: 19.2px;
+  }
+  .grupo2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 9.6px;
+    font-size: 1rem;
+  }
+  /*Index*/
+  .portada {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  .principal1 {
+    height: 110vw;
+    width: 100vw;
+  }
+  /* About Me*/
+  .ammain {
+    padding: 0vw;
+  }
+  p {
+    font-size: 1rem;
+  }
+  .imgaboutme {
+    width: 238px;
+    height: 325px;
+  }
+  #contenedorcarousel {
+    margin-top: 5%;
+    margin-right: 0%;
+    margin-left: 25%;
+    margin-bottom: 4%;
+  }
+  .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    background-color: rgba(128, 128, 128, 0.555);
+    border-style: none;
+    padding-bottom: 10%;
+  }
+  .grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .foto1 {
+    width: 300px;
+    height: 400px;
+    padding: 1%;
+  }
+  .foto2 {
+    width: 300px;
+    height: 400px;
+    padding: 1%;
+  }
+  .foto3 {
+    width: 300px;
+    height: 400px;
+    padding: 1%;
+  }
+  .foto4 {
+    width: 300px;
+    height: 400px;
+    padding: 1%;
+  }
+  .foto5 {
+    width: 300px;
+    height: 400px;
+    padding: 1%;
+  }
+  .foto6 {
+    width: 300px;
+    height: 400px;
+    padding: 1%;
+  }
+  .foto7 {
+    width: 300px;
+    height: 400px;
+    padding: 1%;
+  }
+  .foto8 {
+    width: 300px;
+    height: 400px;
+    padding: 1%;
+  }
 }/*# sourceMappingURL=style.css.map */

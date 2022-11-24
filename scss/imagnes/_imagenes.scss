@@ -25,51 +25,51 @@
 }
 
 .foto1 {
-	width: 24.5vw;
-	height: 38vw;
-	padding: 0.5%;
+	width: map-get($map: $imagenes_portfolio, $key: ancho );
+	height: map-get($map: $imagenes_portfolio, $key: alto );
+	padding: map-get($map: $imagenes_portfolio, $key: espacio );
 }
 
 .foto2 {
-	width: 24.5vw;
-	height: 38vw;
-	padding: 0.5%;
+	width: map-get($map: $imagenes_portfolio, $key: ancho );
+	height: map-get($map: $imagenes_portfolio, $key: alto );
+	padding: map-get($map: $imagenes_portfolio, $key: espacio );
 }
 
 .foto3 {
-	width: 24.5vw;
-	height: 38vw;
-	padding: 0.5%;
+	width: map-get($map: $imagenes_portfolio, $key: ancho );
+	height: map-get($map: $imagenes_portfolio, $key: alto );
+	padding: map-get($map: $imagenes_portfolio, $key: espacio );
 }
 
 .foto4 {
-	width: 24.5vw;
-	height: 38vw;
-	padding: 0.5%;
+	width: map-get($map: $imagenes_portfolio, $key: ancho );
+	height: map-get($map: $imagenes_portfolio, $key: alto );
+	padding: map-get($map: $imagenes_portfolio, $key: espacio );
 }
 
 .foto5 {
-	width: 24.5vw;
-	height: 38vw;
-	padding: 0.5%;
+	width: map-get($map: $imagenes_portfolio, $key: ancho );
+	height: map-get($map: $imagenes_portfolio, $key: alto );
+	padding: map-get($map: $imagenes_portfolio, $key: espacio );
 }
 
 .foto6 {
-	width: 24.5vw;
-	height: 38vw;
-	padding: 0.5%;
+	width: map-get($map: $imagenes_portfolio, $key: ancho );
+	height: map-get($map: $imagenes_portfolio, $key: alto );
+	padding: map-get($map: $imagenes_portfolio, $key: espacio );
 }
 
 .foto7 {
-	width: 24.5vw;
-	height: 38vw;
-	padding: 0.5%;
+	width: map-get($map: $imagenes_portfolio, $key: ancho );
+	height: map-get($map: $imagenes_portfolio, $key: alto );
+	padding: map-get($map: $imagenes_portfolio, $key: espacio );
 }
 
 .foto8 {
-	width: 24.5vw;
-	height: 38vw;
-	padding: 0.5%;
+	width: map-get($map: $imagenes_portfolio, $key: ancho );
+	height: map-get($map: $imagenes_portfolio, $key: alto );
+	padding: map-get($map: $imagenes_portfolio, $key: espacio );
 }
 
 /*Shop*/
